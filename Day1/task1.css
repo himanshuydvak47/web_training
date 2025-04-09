@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(255, 231, 97);
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+
+.container {
+    position: absolute;
+    top: 15vh;
+    left: 37%;
+    display: flex;
+    width: 25%;
+    height: 70svh;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 0px 0px black;
+}
+
+#logo{
+    border-radius: 10px;
+}
+
+#image {
+    position: absolute;
+    bottom: 318px;
+    height: 30%;
+    width: 90%;
+
+    border-radius: 9px;
+}
+
+#image img{
+    width: 96%;
+    height: 120%;
+    /* border-radius: 10px; */
+}
+
+.btn {
+    width: 25%;
+    height: 23px;
+    background-color: rgb(255, 231, 97);
+    font-weight: 600;
+    border-radius: 3px;
+    position: relative;
+
+
+}
+
+.btn p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    width: 100%;
+}
+
+#context {
+    color: gray;
+    font-size: 17px;
+}
+
+.mypic {
+    width: 17%;
+    height: 30%;
+   border-radius: 100%;
+}
+
+.mypic img {
+    width: 100%;
+    height: 100%;
+border-radius: 50%;
+}
+
+#pic{
+    border-radius: 50%;
+}
+
+#hemu {
+    font-family: sans-serif;
+    position: relative;
+    bottom: 50px;
+    left: 60px;
+}
